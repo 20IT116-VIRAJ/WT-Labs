@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(204, 204, 196);
+}
+
+.container{
+     /* border: 2px solid black; */
+     width: 90%;
+     margin: 0 auto;
+     max-height: 100vh;
+}
+
+#logo{
+    /* text-align: left; */
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+#navigation{
+    margin: 0.8rem 0rem;
+    text-align: center;
+}
+
+#header-banner{
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side-body-area{
+    margin: 1.5rem 0rem;
+    display: flex;
+    /* justify-content: space-around; */
+    height: 19.58rem;
+}
+
+#side{
+    width: 15rem;
+    /* background-color: rgb(187, 187, 187); */
+    display: flex;
+    /* height: 100%; */
+    align-items: center;
+    justify-content: center;
+}
+
+#bodyarea{
+    width: 70rem;
+    /* background-color: rgb(187, 187, 187); */
+    margin-left: 2rem;
+    display: flex;
+    /* height: 100%; */
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+    text-align: center;
+}
+
+.bg_grey{
+    background-color: rgb(187, 187, 187);
+}
