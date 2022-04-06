@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+.bg_red{
+    color: red;
+}
+
+.bg_green{
+    color: green;
+}
