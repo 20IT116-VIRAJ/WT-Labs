@@ -1,0 +1,81 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    background-color: #a8211f;
+    color: white;
+    justify-content: center;
+  }
+  .head {
+    margin-right: 1rem;
+    font-weight: 500;
+  }
+  .logo {
+    width: 25rem;
+    text-align: center;
+    color: #337ab7;
+    font-size: 1.2rem;
+    padding-right: 5rem;
+  }
+  .menubar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .sliderbar{
+    position: relative;
+    float: left;
+    bottom: 720px;
+  }
+  .menu {
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .photo {
+    justify-content: center;
+  }
+  .ex {
+    text-align: center;
+    margin-top: -10rem;
+    color: white;
+  }
+  .ad {
+    color: white;
+  }
+  .address {
+    color: #959595;
+    padding-left: 7rem;
+  }
+  .footer {
+    background-color: #20232e;
+  }
+  .bi {
+    padding-right: 1rem;
+  }
+  .links {
+    font-weight: 400;
+  }
+  .options {
+    float: right;
+    padding-right: 20rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .end {
+    display: flex;
+    flex-direction: row;
+    background-color: #a8211f;
+    color: white;
+    justify-content: center;
+  }
+  .final_footer {
+    margin-right: 10rem;
+    font-weight: 500;
+  }
+  
