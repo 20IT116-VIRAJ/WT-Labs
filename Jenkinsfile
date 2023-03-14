@@ -5,6 +5,11 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
+                sh 'docker run -d \
+   --name my-jenkins \
+   -v /var/jenkins_home:~/.jenkins \
+   -v /var/run/docker.sock:/var/run/docker.sock \
+   -p 8080:8080 jenkins'
                 sh '/usr/bin/docker --version '
             }
         }
