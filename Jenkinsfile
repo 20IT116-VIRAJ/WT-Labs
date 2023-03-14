@@ -17,9 +17,10 @@ pipeline {
             steps{
 withCredentials([usernamePassword(credentialsId: 'dockerhub', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
     echo 'this is for automate'
-                sh 'docker build -t viraj116/pipeline116:1.0 . '
-                sh 'docker login -u $USERNAME -p $PASSWORD '
-                sh 'docker push viraj116/pipeline116:1.0 '
+    echo $USERNAME
+//                 sh 'docker build -t viraj116/pipeline116:1.0 . '
+//                 sh 'docker login -u $USERNAME -p $PASSWORD '
+//                 sh 'docker push viraj116/pipeline116:1.0 '
 }
             }
         }
